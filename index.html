@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/libraries/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <!--<link href="css/libraries/heroic-features.css" rel="stylesheet">-->
+
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Start Bootstrap</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron my-4">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="display-3">CARD CREATOR</h1>
+                    <p class="lead">In this project the cards will be stored in Window.localStorage</p>
+                </div>
+                <div class="col-lg-1"></div>
+                <div class="col-lg-3">
+                    <!--<form>-->
+                    <div class="form-group">
+                        <label for="cardTitle">Card title</label>
+                        <input type="email" class="form-control" id="cardTitleInput" aria-describedby="emailHelp"
+                            placeholder="Enter card title">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your card title with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="cardText">Card text</label>
+                        <textarea class="form-control" id="cardTextInput" rows="3" placeholder="Enter card text"></textarea>
+                    </div>
+                    <button id="createCard" class="btn btn-primary">Create</button>
+                    <!--</form>-->
+                </div>
+            </div>
+        </header>
+
+        <!-- Page Features -->
+        <div id="cardsContainer" class="row text-center">
+            <div id="cardTemplate" style="display: none;">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100">
+                        <img class="card-img-top" src="http://placehold.it/500x325" alt="">
+                        <div class="card-body">
+                            <h4 class="card-title" id="cardTitle">Card title</h4>
+                            <p class="card-text" id="cardText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse
+                                necessitatibus neque.</p>
+                        </div>
+                        <div class="card-footer">
+                            <a href="#" class="btn btn-primary">Nothing</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/libraries/jquery-3.4.1.js"></script>
+    <script src="js/libraries/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript file-->
+    <script src="js/utils.js"></script>
+</body>
+
+</html>
